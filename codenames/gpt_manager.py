@@ -1,6 +1,8 @@
 from openai import OpenAI
+import os
 
-openAI_api_key = "ENTER YOUR API KEY HERE"
+#openAI_api_key = "ENTER YOUR API KEY HERE"
+openAI_api_key = os.environ.get("OPENAI_API_KEY")
 
 # https://czechgames.com/files/rules/codenames-rules-en.pdf
 # Codemaster = Spymaster, Guesser = Field Operative
