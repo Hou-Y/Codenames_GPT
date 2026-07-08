@@ -1,6 +1,12 @@
 from openai import OpenAI
+import os
+#from dotenv import load_dotenv
 
-openAI_api_key = "ENTER YOUR API KEY HERE"
+#load_dotenv()  # Load environment variables from .env file
+
+
+#openAI_api_key = "ENTER YOUR API KEY HERE"
+#openAI_api_key = os.environ.get("AZURE_OPENAI_API_KEY")
 
 # https://czechgames.com/files/rules/codenames-rules-en.pdf
 # Codemaster = Spymaster, Guesser = Field Operative
@@ -38,15 +44,57 @@ class GPT:
     def __init__(self, system_prompt, version):
         super().__init__()
         self.model_version = version
-        self.client = OpenAI(api_key=openAI_api_key)
+        openAI_api_key = os.environ.get("AZURE_OPENAI_API_KEY")
+        if not openAI_api_key:
+            raise ValueError(
+                "No OpenAI API key found. Make sure env_setup.setup_environment() has been called (it populates OPENAI_API_KEY), or pass api_key= explicitly."
+            )        
+        self.client = OpenAI(base_url=os.environ.get("AZURE_OPENAI_ENDPOINT"), api_key=openAI_api_key)
+        #self.client = AzureOpenAI(
+        #    api_key=openAI_api_key,
+        #    azure_endpoint=os.environ.get("AZURE_OPENAI_ENDPOINT") )
         self.conversation_history = [{"role": "system", "content": system_prompt}]
 
     def talk_to_ai(self, prompt):
         self.conversation_history.append({"role": "user", "content": prompt})
         response = self.client.chat.completions.create(
             messages=self.conversation_history,
-            model=self.model_version,
-            max_tokens=512
+            model="gpt-5-mini"
+
         ).choices[0].message.content
         self.conversation_history.append({"role": "assistant", "content": response})
         return response
+        #   model=self.model_version, max_tokens=512
+
+        #togliendo la ricerca web tramite azure AI l'AI codemaster inizia a dare parecchi invalid clues!
+        # sembra il modo per averlo performante tramite gpt-5-mini senza embedding è quello di
+        #attivare la ricerca web tramite azure AI, ma ha un prezzo non basso 
+        # (circa 6 EUR per simple_example.py tramite azure cognitive search) 
+        #fa un ottimo lavoro però non so se sarà in grado di sostenere completamente costi 
+        #durante le competizione 
+        #togliere la ricerca web tramite azure AI abbassa il costo a circa 0,075 EUR per simple_example.py
+        
+        #  togliendo il massimo numero di token
+        # adesso genera meno invalid clues, l'obiettivo è azzerarli
+
+class Ollama_local:
+    def __init__(self, system_prompt, version):
+        super().__init__()
+        self.model_version = version
+        self.client = OpenAI(base_url="http://localhost:11434/v1", api_key="")  # Ollama does not require an API key
+        self.conversation_history = [{"role": "system", "content": system_prompt}]
+
+    def talk_to_ai(self, prompt):
+        self.conversation_history.append({"role": "user", "content": prompt})
+        import requests
+        response = requests.post(
+            f"http://localhost:11434/v1/chat/completions",
+            json={
+                "model": self.model_version,
+                "messages": self.conversation_history,
+                "max_tokens": 512
+            }
+        ).json()
+        ai_response = response['choices'][0]['message']['content']
+        self.conversation_history.append({"role": "assistant", "content": ai_response})
+        return ai_response

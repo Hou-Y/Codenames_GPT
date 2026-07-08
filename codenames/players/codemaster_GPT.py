@@ -1,4 +1,4 @@
-from gpt_manager import game_rules, GPT
+from codenames.azure_manager import game_rules, GPT
 from players.codemaster import Codemaster
 import re
 

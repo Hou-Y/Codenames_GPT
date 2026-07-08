@@ -1,11 +1,14 @@
-from gpt_manager import Ollama_local, game_rules
+from codenames.azure_manager import Ollama_local, game_rules
 from players.guesser import Guesser
 import random
 
-# TODO prova con altri modelli locali oltre gemma4
+# TODO sposta la chiamata di setup_environment() dal run_game.py al codemaster_GPT e guesser_GPT
+#
 
 # TODO fare una versione dove chiede se vuole usare modello openAI oppure versione che sta in locale e 
 # unire guesser_Local con Guesser_GPT
+
+# TODO provare più modelli
 
 class Guesser_local(Guesser):
 

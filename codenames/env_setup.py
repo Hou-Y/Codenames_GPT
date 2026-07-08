@@ -1,6 +1,9 @@
 """
 env_setup.py
 
+This submission requires env_setup.py to be present in the same directory. 
+It handles credential loading and can start the local Ollama server
+
 Detects whether code is running on Kaggle or locally, and runs the
 appropriate setup (starting Ollama, loading credentials, resolving file
 paths) so the rest of the codebase can stay environment-agnostic.

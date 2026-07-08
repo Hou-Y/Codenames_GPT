@@ -1,4 +1,4 @@
-from gpt_manager import Ollama_local, game_rules
+from codenames.azure_manager import Ollama_local, game_rules
 from players.codemaster import Codemaster
 import re
 
