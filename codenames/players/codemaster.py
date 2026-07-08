@@ -30,7 +30,8 @@ class Codemaster(ABC):
 
 class HumanCodemaster(Codemaster):
 
-    def __init__(self):
+    def __init__(self): #original version, gives error when trying to run game with human codemaster
+    #def __init__(self, team="Red"): #modified version
         super().__init__()
         self.team = team
         pass
