@@ -2,14 +2,13 @@ from gpt_manager import game_rules, GPT
 from players.codemaster import Codemaster
 import re
 
-
 class AICodemaster(Codemaster):
 
     def __init__(self, team="Red"):
         super().__init__()
         self.team = team
-        system_prompt = game_rules + "You are playing the game Codenames as the " + team + " Codemaster. "
-        self.manager = GPT(system_prompt=system_prompt, version="gpt-4o-2024-05-13")
+        system_prompt = game_rules + "You are playing the game Codenames as an expert player of the " + team + " Codemaster. "
+        self.manager = GPT(system_prompt=system_prompt, version="gpt-5-mini")
 
     def set_game_state(self, words, maps):
         self.words = words

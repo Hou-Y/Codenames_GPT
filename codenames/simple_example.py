@@ -2,6 +2,9 @@ import json
 from game import Game
 from players.codemaster_GPT import AICodemaster
 from players.guesser_GPT import AIGuesser
+from env_setup import setup_environment
+
+setup_environment()
 
 
 def simpleExample(single_team):

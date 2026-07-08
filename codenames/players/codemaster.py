@@ -45,8 +45,9 @@ class HumanCodemaster(Codemaster):
         type(clue_input)
         clue = clue_input.split(" ")
 
-        if len(temp_clue) == 1:
-            clue = [temp_clue[0],1]
+        #
+        if len(clue) == 1:
+            clue = [clue[0],1]
         else:
-            clue = [temp_clue[0], int(temp_clue[1])]
+            clue = [clue[0], int(clue[1])]
         return clue

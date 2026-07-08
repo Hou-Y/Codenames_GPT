@@ -1,0 +1,830 @@
+seed: 1783524206.084128
+RED TEAM TURN
+
+
+
+
+
+____________________________KEY____________________________
+
+    Red        Blue        Blue      Civilian       Red
+
+   Blue         Red        Blue         Red        Blue
+
+   Blue         Red        Blue         Red         Red
+
+ Civilian       Red      Civilian    Civilian    Civilian
+
+    Red      Civilian    Assassin    Civilian      Blue
+___________________________________________________________
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD        MOUTH    ANTARCTICA     PITCH
+
+   SPELL       LINE         DOG       BRIDGE     SCIENTIST
+
+    LAB         PAN        FIELD      LONDON       HORSE
+
+   BEAR        ROUND      MISSILE      FACE         VET
+
+   SUIT         CAR       STREAM       EGYPT        NUT
+___________________________________________________________
+
+
+('cards',3)
+Warning! Invalid clue: ('cards',3)
+The clue cannot be derived from or derive one of the words on the board.
+('tower',2)
+
+
+
+The clue is: TOWER 2
+
+
+The remaining words are: ['TAIL', 'HEAD', 'MOUTH', 'ANTARCTICA', 'PITCH', 'SPELL', 'LINE', 'DOG', 'BRIDGE', 'SCIENTIST', 'LAB', 'PAN', 'FIELD', 'LONDON', 'HORSE', 'BEAR', 'ROUND', 'MISSILE', 'FACE', 'VET', 'SUIT', 'CAR', 'STREAM', 'EGYPT', 'NUT']. The following is the Codemaster's clue: (TOWER, 2). Select one of the remaining words that is most associated with this clue. You must select one of the remaining words and provide no additional text.
+
+
+BRIDGE
+
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD        MOUTH    ANTARCTICA     PITCH
+
+   SPELL       LINE         DOG        *Red*     SCIENTIST
+
+    LAB         PAN        FIELD      LONDON       HORSE
+
+   BEAR        ROUND      MISSILE      FACE         VET
+
+   SUIT         CAR       STREAM       EGYPT        NUT
+___________________________________________________________
+
+
+Keep Guessing? the clue is  TOWER 2
+
+
+The remaining words are: ['TAIL', 'HEAD', 'MOUTH', 'ANTARCTICA', 'PITCH', 'SPELL', 'LINE', 'DOG', 'SCIENTIST', 'LAB', 'PAN', 'FIELD', 'LONDON', 'HORSE', 'BEAR', 'ROUND', 'MISSILE', 'FACE', 'VET', 'SUIT', 'CAR', 'STREAM', 'EGYPT', 'NUT']. The following is the Codemaster's clue: (TOWER, 2). Select one of the remaining words that is most associated with this clue. You must select one of the remaining words and provide no additional text.
+
+
+LONDON
+
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD        MOUTH    ANTARCTICA     PITCH
+
+   SPELL       LINE         DOG        *Red*     SCIENTIST
+
+    LAB         PAN        FIELD       *Red*       HORSE
+
+   BEAR        ROUND      MISSILE      FACE         VET
+
+   SUIT         CAR       STREAM       EGYPT        NUT
+___________________________________________________________
+
+
+Keep Guessing? the clue is  TOWER 2
+BLUE TEAM TURN
+
+
+
+
+
+____________________________KEY____________________________
+
+    Red        Blue        Blue      Civilian       Red
+
+   Blue         Red        Blue         Red        Blue
+
+   Blue         Red        Blue         Red         Red
+
+ Civilian       Red      Civilian    Civilian    Civilian
+
+    Red      Civilian    Assassin    Civilian      Blue
+___________________________________________________________
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD        MOUTH    ANTARCTICA     PITCH
+
+   SPELL       LINE         DOG        *Red*     SCIENTIST
+
+    LAB         PAN        FIELD       *Red*       HORSE
+
+   BEAR        ROUND      MISSILE      FACE         VET
+
+   SUIT         CAR       STREAM       EGYPT        NUT
+___________________________________________________________
+
+
+('research',3)
+
+
+
+The clue is: RESEARCH 3
+
+
+The remaining words are: ['TAIL', 'HEAD', 'MOUTH', 'ANTARCTICA', 'PITCH', 'SPELL', 'LINE', 'DOG', 'SCIENTIST', 'LAB', 'PAN', 'FIELD', 'HORSE', 'BEAR', 'ROUND', 'MISSILE', 'FACE', 'VET', 'SUIT', 'CAR', 'STREAM', 'EGYPT', 'NUT']. The following is the Codemaster's clue: (RESEARCH, 3). Select one of the remaining words that is most associated with this clue. You must select one of the remaining words and provide no additional text.
+
+
+LAB
+
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD        MOUTH    ANTARCTICA     PITCH
+
+   SPELL       LINE         DOG        *Red*     SCIENTIST
+
+  *Blue*        PAN        FIELD       *Red*       HORSE
+
+   BEAR        ROUND      MISSILE      FACE         VET
+
+   SUIT         CAR       STREAM       EGYPT        NUT
+___________________________________________________________
+
+
+Keep Guessing? the clue is  RESEARCH 3
+
+
+The remaining words are: ['TAIL', 'HEAD', 'MOUTH', 'ANTARCTICA', 'PITCH', 'SPELL', 'LINE', 'DOG', 'SCIENTIST', 'PAN', 'FIELD', 'HORSE', 'BEAR', 'ROUND', 'MISSILE', 'FACE', 'VET', 'SUIT', 'CAR', 'STREAM', 'EGYPT', 'NUT']. The following is the Codemaster's clue: (RESEARCH, 3). Select one of the remaining words that is most associated with this clue. You must select one of the remaining words and provide no additional text.
+
+
+SCIENTIST
+
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD        MOUTH    ANTARCTICA     PITCH
+
+   SPELL       LINE         DOG        *Red*      *Blue*
+
+  *Blue*        PAN        FIELD       *Red*       HORSE
+
+   BEAR        ROUND      MISSILE      FACE         VET
+
+   SUIT         CAR       STREAM       EGYPT        NUT
+___________________________________________________________
+
+
+Keep Guessing? the clue is  RESEARCH 3
+
+
+The remaining words are: ['TAIL', 'HEAD', 'MOUTH', 'ANTARCTICA', 'PITCH', 'SPELL', 'LINE', 'DOG', 'PAN', 'FIELD', 'HORSE', 'BEAR', 'ROUND', 'MISSILE', 'FACE', 'VET', 'SUIT', 'CAR', 'STREAM', 'EGYPT', 'NUT']. The following is the Codemaster's clue: (RESEARCH, 3). Select one of the remaining words that is most associated with this clue. You must select one of the remaining words and provide no additional text.
+
+
+FIELD
+
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD        MOUTH    ANTARCTICA     PITCH
+
+   SPELL       LINE         DOG        *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       HORSE
+
+   BEAR        ROUND      MISSILE      FACE         VET
+
+   SUIT         CAR       STREAM       EGYPT        NUT
+___________________________________________________________
+
+
+Keep Guessing? the clue is  RESEARCH 3
+RED TEAM TURN
+
+
+
+
+
+____________________________KEY____________________________
+
+    Red        Blue        Blue      Civilian       Red
+
+   Blue         Red        Blue         Red        Blue
+
+   Blue         Red        Blue         Red         Red
+
+ Civilian       Red      Civilian    Civilian    Civilian
+
+    Red      Civilian    Assassin    Civilian      Blue
+___________________________________________________________
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD        MOUTH    ANTARCTICA     PITCH
+
+   SPELL       LINE         DOG        *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       HORSE
+
+   BEAR        ROUND      MISSILE      FACE         VET
+
+   SUIT         CAR       STREAM       EGYPT        NUT
+___________________________________________________________
+
+
+('pony',2)
+
+
+
+The clue is: PONY 2
+
+
+The remaining words are: ['TAIL', 'HEAD', 'MOUTH', 'ANTARCTICA', 'PITCH', 'SPELL', 'LINE', 'DOG', 'PAN', 'HORSE', 'BEAR', 'ROUND', 'MISSILE', 'FACE', 'VET', 'SUIT', 'CAR', 'STREAM', 'EGYPT', 'NUT']. The following is the Codemaster's clue: (PONY, 2). Select one of the remaining words that is most associated with this clue. You must select one of the remaining words and provide no additional text.
+
+
+HORSE
+
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD        MOUTH    ANTARCTICA     PITCH
+
+   SPELL       LINE         DOG        *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       *Red*
+
+   BEAR        ROUND      MISSILE      FACE         VET
+
+   SUIT         CAR       STREAM       EGYPT        NUT
+___________________________________________________________
+
+
+Keep Guessing? the clue is  PONY 2
+BLUE TEAM TURN
+
+
+
+
+
+____________________________KEY____________________________
+
+    Red        Blue        Blue      Civilian       Red
+
+   Blue         Red        Blue         Red        Blue
+
+   Blue         Red        Blue         Red         Red
+
+ Civilian       Red      Civilian    Civilian    Civilian
+
+    Red      Civilian    Assassin    Civilian      Blue
+___________________________________________________________
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD        MOUTH    ANTARCTICA     PITCH
+
+   SPELL       LINE         DOG        *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       *Red*
+
+   BEAR        ROUND      MISSILE      FACE         VET
+
+   SUIT         CAR       STREAM       EGYPT        NUT
+___________________________________________________________
+
+
+('canine',2)
+
+
+
+The clue is: CANINE 2
+
+
+The remaining words are: ['TAIL', 'HEAD', 'MOUTH', 'ANTARCTICA', 'PITCH', 'SPELL', 'LINE', 'DOG', 'PAN', 'BEAR', 'ROUND', 'MISSILE', 'FACE', 'VET', 'SUIT', 'CAR', 'STREAM', 'EGYPT', 'NUT']. The following is the Codemaster's clue: (CANINE, 2). Select one of the remaining words that is most associated with this clue. You must select one of the remaining words and provide no additional text.
+
+
+DOG
+
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD        MOUTH    ANTARCTICA     PITCH
+
+   SPELL       LINE       *Blue*       *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       *Red*
+
+   BEAR        ROUND      MISSILE      FACE         VET
+
+   SUIT         CAR       STREAM       EGYPT        NUT
+___________________________________________________________
+
+
+Keep Guessing? the clue is  CANINE 2
+RED TEAM TURN
+
+
+
+
+
+____________________________KEY____________________________
+
+    Red        Blue        Blue      Civilian       Red
+
+   Blue         Red        Blue         Red        Blue
+
+   Blue         Red        Blue         Red         Red
+
+ Civilian       Red      Civilian    Civilian    Civilian
+
+    Red      Civilian    Assassin    Civilian      Blue
+___________________________________________________________
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD        MOUTH    ANTARCTICA     PITCH
+
+   SPELL       LINE       *Blue*       *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       *Red*
+
+   BEAR        ROUND      MISSILE      FACE         VET
+
+   SUIT         CAR       STREAM       EGYPT        NUT
+___________________________________________________________
+
+
+('sales',2)
+
+
+
+The clue is: SALES 2
+
+
+The remaining words are: ['TAIL', 'HEAD', 'MOUTH', 'ANTARCTICA', 'PITCH', 'SPELL', 'LINE', 'PAN', 'BEAR', 'ROUND', 'MISSILE', 'FACE', 'VET', 'SUIT', 'CAR', 'STREAM', 'EGYPT', 'NUT']. The following is the Codemaster's clue: (SALES, 2). Select one of the remaining words that is most associated with this clue. You must select one of the remaining words and provide no additional text.
+
+
+PITCH
+
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD        MOUTH    ANTARCTICA     *Red*
+
+   SPELL       LINE       *Blue*       *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       *Red*
+
+   BEAR        ROUND      MISSILE      FACE         VET
+
+   SUIT         CAR       STREAM       EGYPT        NUT
+___________________________________________________________
+
+
+Keep Guessing? the clue is  SALES 2
+BLUE TEAM TURN
+
+
+
+
+
+____________________________KEY____________________________
+
+    Red        Blue        Blue      Civilian       Red
+
+   Blue         Red        Blue         Red        Blue
+
+   Blue         Red        Blue         Red         Red
+
+ Civilian       Red      Civilian    Civilian    Civilian
+
+    Red      Civilian    Assassin    Civilian      Blue
+___________________________________________________________
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD        MOUTH    ANTARCTICA     *Red*
+
+   SPELL       LINE       *Blue*       *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       *Red*
+
+   BEAR        ROUND      MISSILE      FACE         VET
+
+   SUIT         CAR       STREAM       EGYPT        NUT
+___________________________________________________________
+
+
+('chew',2)
+
+
+
+The clue is: CHEW 2
+
+
+The remaining words are: ['TAIL', 'HEAD', 'MOUTH', 'ANTARCTICA', 'SPELL', 'LINE', 'PAN', 'BEAR', 'ROUND', 'MISSILE', 'FACE', 'VET', 'SUIT', 'CAR', 'STREAM', 'EGYPT', 'NUT']. The following is the Codemaster's clue: (CHEW, 2). Select one of the remaining words that is most associated with this clue. You must select one of the remaining words and provide no additional text.
+
+
+MOUTH
+
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD       *Blue*    ANTARCTICA     *Red*
+
+   SPELL       LINE       *Blue*       *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       *Red*
+
+   BEAR        ROUND      MISSILE      FACE         VET
+
+   SUIT         CAR       STREAM       EGYPT        NUT
+___________________________________________________________
+
+
+Keep Guessing? the clue is  CHEW 2
+RED TEAM TURN
+
+
+
+
+
+____________________________KEY____________________________
+
+    Red        Blue        Blue      Civilian       Red
+
+   Blue         Red        Blue         Red        Blue
+
+   Blue         Red        Blue         Red         Red
+
+ Civilian       Red      Civilian    Civilian    Civilian
+
+    Red      Civilian    Assassin    Civilian      Blue
+___________________________________________________________
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD       *Blue*    ANTARCTICA     *Red*
+
+   SPELL       LINE       *Blue*       *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       *Red*
+
+   BEAR        ROUND      MISSILE      FACE         VET
+
+   SUIT         CAR       STREAM       EGYPT        NUT
+___________________________________________________________
+
+
+('formal',2)
+
+
+
+The clue is: FORMAL 2
+
+
+The remaining words are: ['TAIL', 'HEAD', 'ANTARCTICA', 'SPELL', 'LINE', 'PAN', 'BEAR', 'ROUND', 'MISSILE', 'FACE', 'VET', 'SUIT', 'CAR', 'STREAM', 'EGYPT', 'NUT']. The following is the Codemaster's clue: (FORMAL, 2). Select one of the remaining words that is most associated with this clue. You must select one of the remaining words and provide no additional text.
+
+
+SUIT
+
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD       *Blue*    ANTARCTICA     *Red*
+
+   SPELL       LINE       *Blue*       *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       *Red*
+
+   BEAR        ROUND      MISSILE      FACE         VET
+
+   *Red*        CAR       STREAM       EGYPT        NUT
+___________________________________________________________
+
+
+Keep Guessing? the clue is  FORMAL 2
+BLUE TEAM TURN
+
+
+
+
+
+____________________________KEY____________________________
+
+    Red        Blue        Blue      Civilian       Red
+
+   Blue         Red        Blue         Red        Blue
+
+   Blue         Red        Blue         Red         Red
+
+ Civilian       Red      Civilian    Civilian    Civilian
+
+    Red      Civilian    Assassin    Civilian      Blue
+___________________________________________________________
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD       *Blue*    ANTARCTICA     *Red*
+
+   SPELL       LINE       *Blue*       *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       *Red*
+
+   BEAR        ROUND      MISSILE      FACE         VET
+
+   *Red*        CAR       STREAM       EGYPT        NUT
+___________________________________________________________
+
+
+('bolt',2)
+
+
+
+The clue is: BOLT 2
+
+
+The remaining words are: ['TAIL', 'HEAD', 'ANTARCTICA', 'SPELL', 'LINE', 'PAN', 'BEAR', 'ROUND', 'MISSILE', 'FACE', 'VET', 'CAR', 'STREAM', 'EGYPT', 'NUT']. The following is the Codemaster's clue: (BOLT, 2). Select one of the remaining words that is most associated with this clue. You must select one of the remaining words and provide no additional text.
+
+
+NUT
+
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD       *Blue*    ANTARCTICA     *Red*
+
+   SPELL       LINE       *Blue*       *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       *Red*
+
+   BEAR        ROUND      MISSILE      FACE         VET
+
+   *Red*        CAR       STREAM       EGYPT      *Blue*
+___________________________________________________________
+
+
+Keep Guessing? the clue is  BOLT 2
+RED TEAM TURN
+
+
+
+
+
+____________________________KEY____________________________
+
+    Red        Blue        Blue      Civilian       Red
+
+   Blue         Red        Blue         Red        Blue
+
+   Blue         Red        Blue         Red         Red
+
+ Civilian       Red      Civilian    Civilian    Civilian
+
+    Red      Civilian    Assassin    Civilian      Blue
+___________________________________________________________
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD       *Blue*    ANTARCTICA     *Red*
+
+   SPELL       LINE       *Blue*       *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       *Red*
+
+   BEAR        ROUND      MISSILE      FACE         VET
+
+   *Red*        CAR       STREAM       EGYPT      *Blue*
+___________________________________________________________
+
+
+('circle',2)
+
+
+
+The clue is: CIRCLE 2
+
+
+The remaining words are: ['TAIL', 'HEAD', 'ANTARCTICA', 'SPELL', 'LINE', 'PAN', 'BEAR', 'ROUND', 'MISSILE', 'FACE', 'VET', 'CAR', 'STREAM', 'EGYPT']. The following is the Codemaster's clue: (CIRCLE, 2). Select one of the remaining words that is most associated with this clue. You must select one of the remaining words and provide no additional text.
+
+
+ROUND
+
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD       *Blue*    ANTARCTICA     *Red*
+
+   SPELL       LINE       *Blue*       *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       *Red*
+
+   BEAR        *Red*      MISSILE      FACE         VET
+
+   *Red*        CAR       STREAM       EGYPT      *Blue*
+___________________________________________________________
+
+
+Keep Guessing? the clue is  CIRCLE 2
+BLUE TEAM TURN
+
+
+
+
+
+____________________________KEY____________________________
+
+    Red        Blue        Blue      Civilian       Red
+
+   Blue         Red        Blue         Red        Blue
+
+   Blue         Red        Blue         Red         Red
+
+ Civilian       Red      Civilian    Civilian    Civilian
+
+    Red      Civilian    Assassin    Civilian      Blue
+___________________________________________________________
+
+
+___________________________BOARD___________________________
+
+   TAIL        HEAD       *Blue*    ANTARCTICA     *Red*
+
+   SPELL       LINE       *Blue*       *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       *Red*
+
+   BEAR        *Red*      MISSILE      FACE         VET
+
+   *Red*        CAR       STREAM       EGYPT      *Blue*
+___________________________________________________________
+
+
+('teacher',2)
+
+
+
+The clue is: TEACHER 2
+
+
+The remaining words are: ['TAIL', 'HEAD', 'ANTARCTICA', 'SPELL', 'LINE', 'PAN', 'BEAR', 'MISSILE', 'FACE', 'VET', 'CAR', 'STREAM', 'EGYPT']. The following is the Codemaster's clue: (TEACHER, 2). Select one of the remaining words that is most associated with this clue. You must select one of the remaining words and provide no additional text.
+
+
+HEAD
+
+
+
+___________________________BOARD___________________________
+
+   TAIL       *Blue*      *Blue*    ANTARCTICA     *Red*
+
+   SPELL       LINE       *Blue*       *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       *Red*
+
+   BEAR        *Red*      MISSILE      FACE         VET
+
+   *Red*        CAR       STREAM       EGYPT      *Blue*
+___________________________________________________________
+
+
+Keep Guessing? the clue is  TEACHER 2
+RED TEAM TURN
+
+
+
+
+
+____________________________KEY____________________________
+
+    Red        Blue        Blue      Civilian       Red
+
+   Blue         Red        Blue         Red        Blue
+
+   Blue         Red        Blue         Red         Red
+
+ Civilian       Red      Civilian    Civilian    Civilian
+
+    Red      Civilian    Assassin    Civilian      Blue
+___________________________________________________________
+
+
+___________________________BOARD___________________________
+
+   TAIL       *Blue*      *Blue*    ANTARCTICA     *Red*
+
+   SPELL       LINE       *Blue*       *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       *Red*
+
+   BEAR        *Red*      MISSILE      FACE         VET
+
+   *Red*        CAR       STREAM       EGYPT      *Blue*
+___________________________________________________________
+
+
+('queue',2)
+
+
+
+The clue is: QUEUE 2
+
+
+The remaining words are: ['TAIL', 'ANTARCTICA', 'SPELL', 'LINE', 'PAN', 'BEAR', 'MISSILE', 'FACE', 'VET', 'CAR', 'STREAM', 'EGYPT']. The following is the Codemaster's clue: (QUEUE, 2). Select one of the remaining words that is most associated with this clue. You must select one of the remaining words and provide no additional text.
+
+
+LINE
+
+
+
+___________________________BOARD___________________________
+
+   TAIL       *Blue*      *Blue*    ANTARCTICA     *Red*
+
+   SPELL       *Red*      *Blue*       *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       *Red*
+
+   BEAR        *Red*      MISSILE      FACE         VET
+
+   *Red*        CAR       STREAM       EGYPT      *Blue*
+___________________________________________________________
+
+
+Keep Guessing? the clue is  QUEUE 2
+BLUE TEAM TURN
+
+
+
+
+
+____________________________KEY____________________________
+
+    Red        Blue        Blue      Civilian       Red
+
+   Blue         Red        Blue         Red        Blue
+
+   Blue         Red        Blue         Red         Red
+
+ Civilian       Red      Civilian    Civilian    Civilian
+
+    Red      Civilian    Assassin    Civilian      Blue
+___________________________________________________________
+
+
+___________________________BOARD___________________________
+
+   TAIL       *Blue*      *Blue*    ANTARCTICA     *Red*
+
+   SPELL       *Red*      *Blue*       *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       *Red*
+
+   BEAR        *Red*      MISSILE      FACE         VET
+
+   *Red*        CAR       STREAM       EGYPT      *Blue*
+___________________________________________________________
+
+
+('witch',1)
+
+
+
+The clue is: WITCH 1
+
+
+The remaining words are: ['TAIL', 'ANTARCTICA', 'SPELL', 'PAN', 'BEAR', 'MISSILE', 'FACE', 'VET', 'CAR', 'STREAM', 'EGYPT']. The following is the Codemaster's clue: (WITCH, 1). Select one of the remaining words that is most associated with this clue. You must select one of the remaining words and provide no additional text.
+
+
+SPELL
+Blue Team Wins!
+___________________________BOARD___________________________
+
+   TAIL       *Blue*      *Blue*    ANTARCTICA     *Red*
+
+  *Blue*       *Red*      *Blue*       *Red*      *Blue*
+
+  *Blue*        PAN       *Blue*       *Red*       *Red*
+
+   BEAR        *Red*      MISSILE      FACE         VET
+
+   *Red*        CAR       STREAM       EGYPT      *Blue*
+___________________________________________________________
+
+
+Game Over

@@ -7,11 +7,17 @@ import os
 from game import Game
 from players.guesser import *
 from players.codemaster import *
+from env_setup import setup_environment
 
 class GameRun:
     """Class that builds and runs a Game based on command line arguments"""
 
+    
+
     def __init__(self):
+
+        self.env = setup_environment()
+        
         parser = argparse.ArgumentParser(
             description="Run the Codenames AI competition game.",
             formatter_class=argparse.ArgumentDefaultsHelpFormatter)

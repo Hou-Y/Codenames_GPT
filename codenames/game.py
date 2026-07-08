@@ -101,6 +101,7 @@ class Game:
         print("seed:", self.seed)
 
         # load board words
+        # takes the wordpool from the cm_wordlist.txt file and randomly selects 25 words to create the board
         with open("players/cm_wordlist.txt", "r") as f:
             temp = f.read().splitlines()
             assert len(temp) == len(set(temp)), "game wordpool should not have duplicates"
