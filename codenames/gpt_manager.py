@@ -66,10 +66,35 @@ class GPT:
         return response
         #   model=self.model_version, max_tokens=512
 
-        #togliendo la ricerca web tramite azure AI l'AI codemaster inizia a dar solo 
-        #invalid clues!
+        #togliendo la ricerca web tramite azure AI l'AI codemaster inizia a dare parecchi invalid clues!
         # sembra il modo per averlo performante tramite gpt-5-mini senza embedding è quello di
         #attivare la ricerca web tramite azure AI, ma ha un prezzo non basso 
         # (circa 6 EUR per simple_example.py tramite azure cognitive search) 
         #fa un ottimo lavoro però non so se sarà in grado di sostenere completamente costi 
         #durante le competizione 
+        #togliere la ricerca web tramite azure AI abbassa il costo a circa 0,075 EUR per simple_example.py
+        
+        #  togliendo il massimo numero di token
+        # adesso genera meno invalid clues, l'obiettivo è azzerarli
+
+class Ollama_local:
+    def __init__(self, system_prompt, version):
+        super().__init__()
+        self.model_version = version
+        self.client = OpenAI(base_url="http://localhost:11434/v1", api_key="")  # Ollama does not require an API key
+        self.conversation_history = [{"role": "system", "content": system_prompt}]
+
+    def talk_to_ai(self, prompt):
+        self.conversation_history.append({"role": "user", "content": prompt})
+        import requests
+        response = requests.post(
+            f"http://localhost:11434/v1/chat/completions",
+            json={
+                "model": self.model_version,
+                "messages": self.conversation_history,
+                "max_tokens": 512
+            }
+        ).json()
+        ai_response = response['choices'][0]['message']['content']
+        self.conversation_history.append({"role": "assistant", "content": ai_response})
+        return ai_response

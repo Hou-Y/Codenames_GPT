@@ -1,3 +1,5 @@
+To use openAI API, an Azure account that is allowed to run GPT 5 mini is required.
+
 # Codenames AI Competition (2026)
 
 ![image](https://github.com/user-attachments/assets/510cbaa5-a579-46a3-94c6-2cee11f60a7c)

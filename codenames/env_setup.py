@@ -61,16 +61,25 @@ def _setup_kaggle():
             return True
         except Exception:
             return False
+        
+    def _ollama_installed():
+        return subprocess.run(["which", "ollama"], capture_output=True).returncode == 0
+ 
+    if not _ollama_installed():
+        print("Installing Ollama ")
+        subprocess.run(
+            "curl -fsSL https://ollama.com/install.sh | sh",
+            shell=True, check=True
+        )
 
     if not _ollama_running():
-        if subprocess.run(["which", "ollama"], capture_output=True).returncode == 0:
             print("Starting Ollama server...")
             subprocess.Popen(["ollama", "serve"],
                               stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-            time.sleep(5)
-        else:
-            print("Ollama not installed yet, run the install cell first ")
-
+            for _ in range(20):
+                if _ollama_running():
+                    break
+            time.sleep(1)
     # Paths
     config["wordlist_path"] = "/kaggle/working/players/cm_wordlist.txt"
     config["vocab_path"] = "/kaggle/working/clue_vocabulary.txt"
