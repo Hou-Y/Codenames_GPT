@@ -1,6 +1,12 @@
 To run locally:
+
+
 pip install gensim
+
+
 pip install wordfreq statsmodels 
+
+
 pip install sentence-transformer transformers einops
 
 if with Nvidia GPU:
