@@ -1,3 +1,9 @@
+"""
+env_setup.py
+
+This submission requires env_setup.py to be present in the same directory.
+It is the equivalent of gpt_manager.py but for azure. """
+
 from openai import OpenAI
 import os
 #from dotenv import load_dotenv
