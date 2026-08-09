@@ -1,10 +1,10 @@
 from sentence_transformers import SentenceTransformer
 
-model = SentenceTransformer("nomic-ai/nomic-embed-text-v1.5", trust_remote_code=True)
+nomic_model = SentenceTransformer("nomic-ai/nomic-embed-text-v1.5", trust_remote_code=True)
 
 # debug
-doc_vec = model.encode("search_document: APPLE")
-query_vec = model.encode("search_query: fruit")
+doc_vec = nomic_model.encode("search_document: APPLE")
+query_vec = nomic_model.encode("search_query: fruit")
 
 
 #debug

@@ -1,4 +1,4 @@
-from codenames.azure_manager import game_rules, GPT
+from azure_manager import game_rules, GPT
 from players.codemaster import Codemaster
 import re
 
@@ -80,3 +80,6 @@ class AICodemaster(Codemaster):
                 number = 1
 
         return [clue, number]
+    
+
+   

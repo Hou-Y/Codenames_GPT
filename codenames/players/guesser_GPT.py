@@ -1,4 +1,4 @@
-from codenames.azure_manager import game_rules, GPT
+from azure_manager import game_rules, GPT
 from players.guesser import Guesser
 import random
 

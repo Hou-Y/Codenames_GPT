@@ -107,6 +107,7 @@ class Game:
             assert len(temp) == len(set(temp)), "game wordpool should not have duplicates"
             random.shuffle(temp)
             self.words_on_board = temp[:25]
+        #!!!! cm_wordlist is the BOARD!!!
 
         # set grid key for codemaster (spymaster)
         self.key_grid = ["Red"] * self.num_red_words + ["Blue"] * self.num_blue_words + \
