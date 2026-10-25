@@ -21,7 +21,7 @@ class Game:
     """
 
     def __init__(self, codemaster_red, guesser_red, codemaster_blue, guesser_blue,
-                 seed="time", do_print=True, do_log=True, game_name="default",
+                 seed=1, do_print=True, do_log=True, game_name="default",
                  cmr_kwargs={}, gr_kwargs={}, cmb_kwargs={}, gb_kwargs={},
                  single_team=False):
         """ Setup Game details

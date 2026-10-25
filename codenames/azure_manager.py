@@ -54,7 +54,11 @@ class GPT:
         if not openAI_api_key:
             raise ValueError(
                 "No OpenAI API key found. Make sure env_setup.setup_environment() has been called (it populates OPENAI_API_KEY), or pass api_key= explicitly."
-            )        
+            ) 
+        self.deployment_name = os.environ.get("DEPLOYMENT_NAME")
+        if not self.deployment_name:
+            raise ValueError("DEPLOYMENT_NAME is not set (env var locally, Kaggle secret on Kaggle).")
+       
         self.client = OpenAI(base_url=os.environ.get("AZURE_OPENAI_ENDPOINT"), api_key=openAI_api_key)
         #self.client = AzureOpenAI(
         #    api_key=openAI_api_key,
@@ -65,8 +69,7 @@ class GPT:
         self.conversation_history.append({"role": "user", "content": prompt})
         response = self.client.chat.completions.create(
             messages=self.conversation_history,
-            model="gpt-5-mini"
-
+            model=self.deployment_name
         ).choices[0].message.content
         self.conversation_history.append({"role": "assistant", "content": response})
         return response
